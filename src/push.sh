@@ -89,6 +89,6 @@ if [ -n "$answer" ]; then
     #cp "$config" "$config.BAK"
     #sed -e "s%$before%$after%" "$config.BAK" > "$config"
     #rm ".git/config.BAK"
-    git push origin
+    git push origin master
 fi
 cd $(dirname $pre_dir)
