@@ -59,7 +59,6 @@ git config --local user.email "$mailaddr"
 
 repo_name=$(basename $repo_path)
 cd $repo_path
-#repo=$(basename $(cd $(dirname $0); pwd))
 echo "$username/$repo_name"
 echo "--------------------"
 # リモートリポジトリ作成はしていない！
