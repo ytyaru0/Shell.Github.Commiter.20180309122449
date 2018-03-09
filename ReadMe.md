@@ -2,7 +2,7 @@
 
 簡易アップローダ。
 
-以下のアップローダで作成されたDBからパスワードとメアドを取得する。.shにハードコーディングせずに済む。
+以下のアップローダで作成されたDBからパスワードとメアドを取得する。.shにパスワードをハードコーディングせずに済む。
 
 * https://github.com/ytyaru0/GitHub.Uploader.Pi3.Https.201802210700
 * https://github.com/ytyaru0/GitHub.Uploader.Pi3.Https.201803020700
@@ -12,15 +12,8 @@
 # 使い方
 
 ```sh
-$ bash /.../push.sh
+$ bash /.../push.sh /tmp/some_repository/ some_username
 ```
-
-# 例
-
-* [時刻あわせ](src/settime.sh)
-* [pyenv 初期化](src/pyenv.sh)
-* [python venv 有効化](src/py_venv.sh)
-* [作業用ディレクトリ作成](src/mkdir_work.sh)
 
 # 開発環境
 
